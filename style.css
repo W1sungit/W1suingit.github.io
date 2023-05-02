@@ -243,6 +243,7 @@ hr {
     width: 40%;
     margin-bottom: 20px;
     border-radius: 0px;
+    flex-direction: column;
   }
 
   nav ul {
