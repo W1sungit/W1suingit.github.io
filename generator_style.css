@@ -1,5 +1,6 @@
 *{
-    background-color: rgb(177, 176, 176);
+    background-color: rgb(68, 68, 255);
+    color: white;
 }
 
 header{
@@ -37,7 +38,7 @@ header{
   .btn-submit {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background: linear-gradient(to bottom right, rgb(253, 17, 17), #ff5100);
     color: white;
     font-size: 16px;
     border: none;
@@ -45,17 +46,21 @@ header{
   }
 
   .btn-submit:hover {
-    background-color: #45a049;
+    /* background-color: #45a049; */
+    background: linear-gradient(to bottom right, rgb(253, 17, 17), #ff5100);
   }
 
   #last-name{
-    background-color: white;
+    /* background: linear-gradient(to bottom right, rgb(253, 17, 17), #ff5100); */
+    background-color: rgb(153, 0, 255);
   }
 
   #first-name{
-    background-color: white;
+    /* background: linear-gradient(to bottom right, rgb(253, 17, 17), #ff5100); */
+    background-color: rgb(153, 0, 255);
   }
 
   #data{
-    background-color: white;
+    /* background: linear-gradient(to bottom right, rgb(253, 17, 17), #ff5100); */
+    background-color: rgb(153, 0, 255);
   }
