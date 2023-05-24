@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+*{
+  color: white
+}
+
 body {
   font-family: 'AvenirNextCyr-Regular', sans-serif;
   font-size: 18px;
@@ -13,7 +17,7 @@ body {
 
   margin: 0px;
   padding: 0px;
-  background-color: #CECECE;
+  background-color: rgb(68, 68, 255);
 }
 
 header {
@@ -134,7 +138,7 @@ h2 {
 }
 
 .card {
-  background: linear-gradient(to bottom right, #000000, #ffffff);
+  background: linear-gradient(to bottom right, rgb(253, 17, 17), #ff5100);
   border-radius: 40px;
   margin: 0 10px;
   padding: 25px;
@@ -176,12 +180,14 @@ transform: translateY(0px);
 .card-alert{flex: 1;}
 
 button {
-  background-color: white;
+  background-color: rgb(153, 0, 255);
   padding: 15px 20px;
   border-radius: 10px;
   border: none;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  color: #000000;
+  margin-left: 5px;
 }
 
 .bg-blue {
@@ -221,7 +227,7 @@ hr {
   align-items: center;
   text-align: center;
   border-bottom: solid white;
-  background-color: rgb(177, 176, 176);
+  background-color: rgb(255, 88, 28);
   border-radius: 25px;
 }
 
