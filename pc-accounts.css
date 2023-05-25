@@ -1,13 +1,14 @@
 *{
-    background-color: rgb(68, 68, 255);
-    color: white;
-}
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    color: orangered;
+    
+} 
 
 header{
-    background-image: url('assets/images/1597661a-daec-4c27-b928-c32b4ef7d811.png');
+    /* background-image: url('assets/images/1597661a-daec-4c27-b928-c32b4ef7d811.png');
     height: 70vh;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     margin: 0px;
     padding: 0px;
 }
@@ -18,10 +19,36 @@ header{
     text-align: center;
 }
 
+main{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background-image: url('assets/images/1597661a-daec-4c27-b928-c32b4ef7d811.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* padding-left: 9px; */
+
+  align-items: center;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
 .form-group {
     margin-bottom: 20px;
-    padding: 10px;
+    padding-right: 10px;
     margin-right: 15px;
+    /* background-color: rgba(0, 0, 0, 0.2); */
   }
 
   .form-group label {
@@ -36,7 +63,7 @@ header{
   }
 
   .btn-submit {
-    display: inline-block;
+    display: flex;
     padding: 10px 20px;
     background: linear-gradient(to bottom right, rgb(253, 17, 17), #ff5100);
     color: white;
@@ -51,15 +78,32 @@ header{
 
   #last-name{
     /* background: linear-gradient(to bottom right, rgb(253, 17, 17), #ff5100); */
-    background-color: rgb(153, 0, 255);
+    background-color: #4444FF;
   }
 
   #first-name{
     /* background-color: white; */
-    background-color: rgb(153, 0, 255);
+    background-color: #4444FF;
   }
 
   #data{
     /* background-color: white; */
-    background-color: rgb(153, 0, 255);
+    background-color: #4444FF;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom right, rgb(253, 17, 17), #ff5100);
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background: linear-gradient(to bottom right, rgb(253, 17, 17), #ff5100);
   }
