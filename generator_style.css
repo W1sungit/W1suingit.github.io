@@ -21,6 +21,7 @@ header{
 
 main{
 background-color: rgba(0, 0, 0, 0.5);
+padding: 15px; 
 }
 
 body {
@@ -78,17 +79,17 @@ align-items: center;
 
 #last-name{
   /* background: linear-gradient(to bottom right, rgb(253, 17, 17), #ff5100); */
-  background-color: #4444FF;
+  background-color: #444444;
 }
 
 #first-name{
   /* background-color: white; */
-  background-color: #4444FF;
+  background-color: #444444;
 }
 
 #data{
   /* background-color: white; */
-  background-color: #4444FF;
+  background-color: #444444;
 }
 
 .btn {
